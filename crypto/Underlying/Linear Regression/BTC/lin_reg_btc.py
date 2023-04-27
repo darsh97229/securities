@@ -8,7 +8,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 # Load the data (https://www.kaggle.com/datasets/mczielinski/bitcoin-historical-data)
 df = pd.read_csv('../../../Data/BTC.csv')
 
-print(df)
+# print(df)
 
 df.dropna(inplace=True)
 
